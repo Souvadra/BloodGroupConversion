@@ -1,0 +1,13 @@
+-include_sugars
+-alternate_3_letter_codes pdb_sugar
+-auto_detect_glycan_connections 
+-in:file:s /home/souvadra/myGitFolders/BloodGroupConversion/starting_structure/6N1B-A_antigen.pdb
+-nstruct 1 
+-ex1 
+-ex2 
+-ex3 
+-ex4 
+-ex1aro
+-ex2aro
+-carbohydrates:glycan_dock:prepack_only true 
+-docking:partners A_X -out:pdb_gz 

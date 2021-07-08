@@ -1,0 +1,3 @@
+SEQUENCE: 
+SCORE: total_score dslf_fa13    fa_atr    fa_dun   fa_elec fa_intra_rep fa_intra_rep_nonprotein fa_intra_rep_xover4 fa_intra_sol_xover4              fa_rep              fa_sol hbond_bb_sc hbond_lr_bb    hbond_sc hbond_sr_bb lk_ball_wtd       omega     p_aa_pp pro_close rama_prepro         ref    sugar_bb yhh_planarity description 
+SCORE:    1616.521     0.000 -2406.954   515.328  -709.051        4.040                   4.506              53.450              81.930            2867.867            1461.650    -103.657    -151.545     -41.323     -36.331     -50.982     104.507     -92.228    25.525      17.176      71.001       0.881         0.731 6N1B-A_antigen_0001
