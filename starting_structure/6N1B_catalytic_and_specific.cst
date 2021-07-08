@@ -1,0 +1,36 @@
+# Distances and atoms are pulled from 6N1B crystal structure
+# no angle or dihedral constraints as 6N1B is FpGalNAcDeAc in complex
+# with B-antigen, which is not the target substrate
+# hence binding but no catalytic activity
+# (A-antign has alpha-GalNAc at 3X, B-antigen is just alpha-Gal)
+
+# metal coordinating residues
+# without the metal there is no cleavage activity
+AtomPair NE2 252A CA 501A HARMONIC 2.1 0.1
+AtomPair OD1 100A CA 501A HARMONIC 2.0 0.1
+
+# catalytic residue that likely activates a water
+# removal of Glu64 essentially kills cleavage activity
+AtomPair OE2 64A O3 3X HARMONIC 4.5 0.1
+
+# His97 makes an H-bond to 3X O3
+# which is to the non-reducing galactosyl moiety
+# which would be present for both the A- and A'-antigen
+# but not to the B-antigen
+# so likely relevant for specificity
+# but no reported info on role in catalysis (like Glu64)
+# therefore not sure how critical this constraint is
+AtomPair NE2 97A O3 3X HARMONIC 2.7 0.1
+
+# Ser61 and Asp121 have polar interactions with the core Fuc
+# which is present on the blood antigens, including A
+# being specific to core fucose helps ensure the enzyme is specific
+# so also likely relevant for specificity, not catalysis
+# again, not sure how criticial it is to constrain then
+# but Ser61 is tricky because they reported two conformations
+# going to use a AtomPairConstraint to ensure Fuc is close
+# to Ser61 and Asp121 in a more relaxed way
+# using the cyclic oxygen of the fucose
+# which must be within X distance to the CA of the other residue(s)
+AtomPair O5 2X CA 61A HARMONIC 5.0 0.5
+AtomPair O5 2X CA 121A HARMONIC 8.6 0.5
