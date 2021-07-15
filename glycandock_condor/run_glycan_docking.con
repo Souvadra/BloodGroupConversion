@@ -1,0 +1,11 @@
+Universe = vanilla
+Executable = /home/shati/Rosetta/main/source/bin/GlycanDock.linuxgccrelease
+Arguments = @flags_glycandock
+
+Log          = outerr/$(prefix).log_$(Process)
+Output       = outerr/$(prefix).out_$(Process)
+Error        = outerr/$(prefix).err_$(Process)
+
+prefix       = out
+
+Queue 50

@@ -1,0 +1,518 @@
+000 (13548647.034.000) 07/08 01:01:54 Job submitted from host: <10.160.170.90:59632>
+...
+001 (13548647.034.000) 07/08 01:23:22 Job executing on host: <172.20.1.5:46334>
+...
+006 (13548647.034.000) 07/08 01:23:31 Image size of job updated: 46032
+	1  -  MemoryUsage of job (MB)
+	196  -  ResidentSetSize of job (KB)
+...
+006 (13548647.034.000) 07/08 01:28:32 Image size of job updated: 407868
+	165  -  MemoryUsage of job (MB)
+	168472  -  ResidentSetSize of job (KB)
+...
+006 (13548647.034.000) 07/08 01:33:32 Image size of job updated: 407868
+	165  -  MemoryUsage of job (MB)
+	168636  -  ResidentSetSize of job (KB)
+...
+004 (13548647.034.000) 07/08 01:33:44 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    297668
+	   Memory (MB)          :      165      256       256
+...
+001 (13548647.034.000) 07/08 01:33:55 Job executing on host: <172.20.1.5:46334>
+...
+006 (13548647.034.000) 07/08 01:39:03 Image size of job updated: 907264
+	660  -  MemoryUsage of job (MB)
+	675620  -  ResidentSetSize of job (KB)
+...
+006 (13548647.034.000) 07/08 01:44:03 Image size of job updated: 908056
+	661  -  MemoryUsage of job (MB)
+	676412  -  ResidentSetSize of job (KB)
+...
+006 (13548647.034.000) 07/08 01:59:05 Image size of job updated: 908188
+	661  -  MemoryUsage of job (MB)
+	676412  -  ResidentSetSize of job (KB)
+...
+006 (13548647.034.000) 07/08 02:14:07 Image size of job updated: 908188
+	661  -  MemoryUsage of job (MB)
+	676676  -  ResidentSetSize of job (KB)
+...
+006 (13548647.034.000) 07/08 02:34:09 Image size of job updated: 908188
+	663  -  MemoryUsage of job (MB)
+	677996  -  ResidentSetSize of job (KB)
+...
+006 (13548647.034.000) 07/08 02:39:10 Image size of job updated: 908188
+	663  -  MemoryUsage of job (MB)
+	678260  -  ResidentSetSize of job (KB)
+...
+006 (13548647.034.000) 07/08 03:09:13 Image size of job updated: 908188
+	663  -  MemoryUsage of job (MB)
+	678524  -  ResidentSetSize of job (KB)
+...
+004 (13548647.034.000) 07/08 03:18:42 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 01:44:36, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    297662
+	   Memory (MB)          :      663      256       256
+...
+001 (13548647.034.000) 07/08 03:19:40 Job executing on host: <172.20.1.14:38048>
+...
+004 (13548647.034.000) 07/08 03:20:07 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:21, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    299866
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 03:21:05 Job executing on host: <172.20.1.16:43827>
+...
+004 (13548647.034.000) 07/08 03:21:53 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:38, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22   1105614
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 03:27:21 Job executing on host: <172.20.1.10:35594>
+...
+004 (13548647.034.000) 07/08 03:27:48 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:12, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22   1110926
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 03:28:46 Job executing on host: <172.20.1.14:38048>
+...
+004 (13548647.034.000) 07/08 03:29:12 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:16, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    299866
+	   Memory (MB)          :      733      256       256
+...
+022 (13548647.034.000) 07/08 03:29:29 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_33@jazz030.graylab.jhu.edu <172.20.1.30:45952>
+...
+024 (13548647.034.000) 07/08 03:29:29 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_33@jazz030.graylab.jhu.edu, rescheduling job
+...
+001 (13548647.034.000) 07/08 03:29:49 Job executing on host: <172.20.1.36:44355>
+...
+004 (13548647.034.000) 07/08 18:18:03 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 14:47:50, Sys 0 00:00:12  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    128004
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 18:22:09 Job executing on host: <172.20.1.32:58000>
+...
+004 (13548647.034.000) 07/08 18:22:35 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:24, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22   4828048
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 18:23:33 Job executing on host: <172.20.1.29:39508>
+...
+004 (13548647.034.000) 07/08 18:24:36 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:01:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22   4415895
+	   Memory (MB)          :      733      256       256
+...
+022 (13548647.034.000) 07/08 18:24:57 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1@jazz019.graylab.jhu.edu <172.20.1.19:42446>
+...
+024 (13548647.034.000) 07/08 18:24:57 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1@jazz019.graylab.jhu.edu, rescheduling job
+...
+001 (13548647.034.000) 07/08 18:25:18 Job executing on host: <172.20.1.36:44355>
+...
+004 (13548647.034.000) 07/08 18:25:45 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:25, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    127949
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 18:26:00 Job executing on host: <172.20.1.32:58000>
+...
+004 (13548647.034.000) 07/08 18:26:47 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:45, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22   4828051
+	   Memory (MB)          :      733      256       256
+...
+022 (13548647.034.000) 07/08 18:27:45 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1@jazz019.graylab.jhu.edu <172.20.1.19:42446>
+...
+024 (13548647.034.000) 07/08 18:27:45 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1@jazz019.graylab.jhu.edu, rescheduling job
+...
+001 (13548647.034.000) 07/08 18:28:06 Job executing on host: <172.20.1.33:37665>
+...
+004 (13548647.034.000) 07/08 18:28:12 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:05, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    130843
+	   Memory (MB)          :      733      256       256
+...
+022 (13548647.034.000) 07/08 18:29:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1@jazz030.graylab.jhu.edu <172.20.1.30:45952>
+...
+024 (13548647.034.000) 07/08 18:29:09 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1@jazz030.graylab.jhu.edu, rescheduling job
+...
+001 (13548647.034.000) 07/08 18:29:50 Job executing on host: <172.20.1.39:45906>
+...
+004 (13548647.034.000) 07/08 18:31:40 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:01:48, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22     92270
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 18:50:41 Job executing on host: <172.20.1.8:44745>
+...
+004 (13548647.034.000) 07/08 18:50:46 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    292919
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 18:51:02 Job executing on host: <172.20.1.32:58000>
+...
+004 (13548647.034.000) 07/08 18:51:07 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22   4828037
+	   Memory (MB)          :      733      256       256
+...
+022 (13548647.034.000) 07/08 18:52:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1@jazz030.graylab.jhu.edu <172.20.1.30:45952>
+...
+024 (13548647.034.000) 07/08 18:52:06 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1@jazz030.graylab.jhu.edu, rescheduling job
+...
+001 (13548647.034.000) 07/08 18:52:26 Job executing on host: <172.20.1.39:45906>
+...
+004 (13548647.034.000) 07/08 18:52:32 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22     92266
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 19:14:24 Job executing on host: <172.20.1.8:44745>
+...
+004 (13548647.034.000) 07/08 19:14:50 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:20, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    292919
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 19:15:48 Job executing on host: <172.20.1.8:44745>
+...
+004 (13548647.034.000) 07/08 19:15:53 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    292920
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 19:16:09 Job executing on host: <172.20.1.29:39508>
+...
+004 (13548647.034.000) 07/08 19:16:14 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22   4415892
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 19:16:30 Job executing on host: <172.20.1.8:44745>
+...
+004 (13548647.034.000) 07/08 19:17:12 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:30, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    292919
+	   Memory (MB)          :      733      256       256
+...
+022 (13548647.034.000) 07/08 19:17:33 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1@jazz030.graylab.jhu.edu <172.20.1.30:45952>
+...
+024 (13548647.034.000) 07/08 19:17:33 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1@jazz030.graylab.jhu.edu, rescheduling job
+...
+001 (13548647.034.000) 07/08 19:17:54 Job executing on host: <172.20.1.38:51186>
+...
+004 (13548647.034.000) 07/08 19:18:41 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:45, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    154085
+	   Memory (MB)          :      733      256       256
+...
+022 (13548647.034.000) 07/08 19:19:39 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1@jazz030.graylab.jhu.edu <172.20.1.30:45952>
+...
+024 (13548647.034.000) 07/08 19:19:39 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1@jazz030.graylab.jhu.edu, rescheduling job
+...
+001 (13548647.034.000) 07/08 20:08:41 Job executing on host: <172.20.1.39:45906>
+...
+004 (13548647.034.000) 07/08 20:08:46 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22     92276
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 20:09:44 Job executing on host: <172.20.1.8:44745>
+...
+004 (13548647.034.000) 07/08 20:10:27 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:31, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    292922
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 20:10:48 Job executing on host: <172.20.1.35:54930>
+...
+004 (13548647.034.000) 07/08 22:40:36 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 02:29:38, Sys 0 00:00:07  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    131735
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 22:41:14 Job executing on host: <172.20.1.38:51186>
+...
+004 (13548647.034.000) 07/08 22:41:40 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:23, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    154070
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 22:42:37 Job executing on host: <172.20.1.38:51186>
+...
+004 (13548647.034.000) 07/08 22:43:24 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:45, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    154063
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/08 22:43:40 Job executing on host: <172.20.1.38:51186>
+...
+022 (13548647.034.000) 07/09 02:40:34 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1@jazz038.graylab.jhu.edu <172.20.1.38:51186>
+...
+024 (13548647.034.000) 07/09 03:00:34 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (1200 seconds) expired
+    Can not reconnect to slot1@jazz038.graylab.jhu.edu, rescheduling job
+...
+022 (13548647.034.000) 07/09 03:01:15 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1@jazz031.graylab.jhu.edu <172.20.1.31:45117>
+...
+024 (13548647.034.000) 07/09 03:01:15 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1@jazz031.graylab.jhu.edu, rescheduling job
+...
+022 (13548647.034.000) 07/09 03:01:57 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1@jazz031.graylab.jhu.edu <172.20.1.31:45117>
+...
+024 (13548647.034.000) 07/09 03:01:57 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1@jazz031.graylab.jhu.edu, rescheduling job
+...
+001 (13548647.034.000) 07/09 03:02:18 Job executing on host: <172.20.1.39:45906>
+...
+004 (13548647.034.000) 07/09 03:02:39 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:17, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22     92255
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/09 03:03:00 Job executing on host: <172.20.1.4:40954>
+...
+004 (13548647.034.000) 07/09 03:03:26 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:06, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    294554
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/09 03:03:42 Job executing on host: <172.20.1.3:37982>
+...
+004 (13548647.034.000) 07/09 03:04:45 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:44, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    291992
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.034.000) 07/09 05:22:43 Job executing on host: <172.20.1.15:38138>
+...
+005 (13548647.034.000) 07/09 05:22:43 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22   1126212
+	   Memory (MB)          :      733      256       256
+...

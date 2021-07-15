@@ -1,0 +1,285 @@
+000 (13548647.027.000) 07/08 01:01:54 Job submitted from host: <10.160.170.90:59632>
+...
+001 (13548647.027.000) 07/08 01:23:22 Job executing on host: <172.20.1.17:57922>
+...
+006 (13548647.027.000) 07/08 01:23:22 Image size of job updated: 6860
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+004 (13548647.027.000) 07/08 01:23:22 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22   1126107
+	   Memory (MB)          :        0      256       256
+...
+001 (13548647.027.000) 07/08 01:23:44 Job executing on host: <172.20.1.17:57922>
+...
+006 (13548647.027.000) 07/08 01:23:53 Image size of job updated: 459320
+	215  -  MemoryUsage of job (MB)
+	220028  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 01:28:54 Image size of job updated: 905672
+	659  -  MemoryUsage of job (MB)
+	674176  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 01:33:54 Image size of job updated: 905804
+	659  -  MemoryUsage of job (MB)
+	674236  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 01:38:54 Image size of job updated: 908184
+	662  -  MemoryUsage of job (MB)
+	676896  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 01:43:55 Image size of job updated: 908184
+	662  -  MemoryUsage of job (MB)
+	677196  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 01:48:56 Image size of job updated: 908316
+	662  -  MemoryUsage of job (MB)
+	677788  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 01:53:56 Image size of job updated: 908316
+	662  -  MemoryUsage of job (MB)
+	677808  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 01:58:56 Image size of job updated: 908316
+	662  -  MemoryUsage of job (MB)
+	677820  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:03:57 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679224  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:08:58 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679272  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:13:58 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679284  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:18:58 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679296  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:23:59 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679308  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:29:00 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679328  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:34:00 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679340  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:39:00 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679352  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:44:01 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679372  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:49:02 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679412  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:54:02 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679432  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 02:59:02 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679448  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:04:03 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679460  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:09:04 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679480  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:14:04 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679488  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:19:04 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679500  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:24:05 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679520  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:29:06 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679556  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:34:07 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679564  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:39:07 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679580  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:44:07 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679596  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:49:08 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679616  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:54:09 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679628  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 03:59:10 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679644  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 04:04:10 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679656  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 04:09:10 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679684  -  ResidentSetSize of job (KB)
+...
+006 (13548647.027.000) 07/08 05:34:19 Image size of job updated: 908316
+	664  -  MemoryUsage of job (MB)
+	679688  -  ResidentSetSize of job (KB)
+...
+004 (13548647.027.000) 07/08 08:04:47 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 06:40:51, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22   1126105
+	   Memory (MB)          :      664      256       256
+...
+001 (13548647.027.000) 07/08 08:05:45 Job executing on host: <172.20.1.33:37665>
+...
+004 (13548647.027.000) 07/08 08:05:50 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:03, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    130767
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.027.000) 07/08 08:06:48 Job executing on host: <172.20.1.33:37665>
+...
+022 (13548647.027.000) 07/09 02:40:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1@jazz033.graylab.jhu.edu <172.20.1.33:37665>
+...
+024 (13548647.027.000) 07/09 03:00:17 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (1200 seconds) expired
+    Can not reconnect to slot1@jazz033.graylab.jhu.edu, rescheduling job
+...
+001 (13548647.027.000) 07/09 03:00:33 Job executing on host: <172.20.1.39:45906>
+...
+004 (13548647.027.000) 07/09 03:00:54 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:03, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22     92249
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.027.000) 07/09 03:01:15 Job executing on host: <172.20.1.38:60151>
+...
+004 (13548647.027.000) 07/09 03:01:36 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    147050
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.027.000) 07/09 03:01:57 Job executing on host: <172.20.1.38:60151>
+...
+004 (13548647.027.000) 07/09 03:02:41 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:26, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    147045
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.027.000) 07/09 03:03:00 Job executing on host: <172.20.1.2:49250>
+...
+004 (13548647.027.000) 07/09 03:03:26 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    293738
+	   Memory (MB)          :      733      256       256
+...
+022 (13548647.027.000) 07/09 03:03:42 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1@jazz031.graylab.jhu.edu <172.20.1.31:45117>
+...
+024 (13548647.027.000) 07/09 03:03:42 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1@jazz031.graylab.jhu.edu, rescheduling job
+...
+001 (13548647.027.000) 07/09 03:04:03 Job executing on host: <172.20.1.39:45906>
+...
+004 (13548647.027.000) 07/09 03:04:46 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:41, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22     92261
+	   Memory (MB)          :      733      256       256
+...
+001 (13548647.027.000) 07/09 05:22:43 Job executing on host: <172.20.1.4:40954>
+...
+005 (13548647.027.000) 07/09 05:22:43 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       22       22    294549
+	   Memory (MB)          :      733      256       256
+...

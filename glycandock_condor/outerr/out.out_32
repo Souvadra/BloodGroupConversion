@@ -1,0 +1,15 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: 2021.26.post.dev+156.Souvadra.BloodGroupConversion.a25ef78 a25ef78f63392837561df09c33230c26732726aa git@github.com:RosettaCommons/main.git 2021-07-05T11:10:24
+core.init: command: condor_exec.exe @flags_glycandock
+basic.random.init_random_generator: 'RNG device' seed mode, using '/dev/urandom', seed=-1614984019 seed_offset=0 real_seed=-1614984019
+basic.random.init_random_generator: RandomGenerator:init: Normal mode, seed=-1614984019 RG_type=mt19937
+core.init: Resolved executable path: /home/shati/Rosetta/main/source/build/src/release/linux/3.10/64/x86/gcc/4.8/default/GlycanDock.default.linuxgccrelease
+core.init: Looking for database based on location of executable: /home/shati/Rosetta/main/database/
+protocols.glycan_docking.GlycanDockProtocol: Clearing counters
+protocols.jd2.PDBJobInputter: Instantiate PDBJobInputter
+protocols.jd2.PDBJobInputter: PDBJobInputter::fill_jobs
+protocols.jd2.PDBJobInputter: pushed /home/shati/BloodGroupConversion/starting_structure/6N1B-A_antigen.pdb nstruct indices 1 - 50
+protocols.evaluation.ChiWellRmsdEvaluatorCreator: Evaluation Creator active ... 
+protocols.jd2.JobDistributor: no more batches to process... 
+protocols.jd2.JobDistributor: 50 jobs considered, 0 jobs attempted in 0 seconds
+protocols.jd2.JobDistributor: no jobs were attempted, did you forget to pass -overwrite?

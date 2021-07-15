@@ -1,0 +1,10 @@
+-include_sugars
+-maintain_links
+-in:file:s /home/shati/BloodGroupConversion/starting_structure/6N1B-A_antigen.pdb
+-cst_fa_file /home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst
+-nstruct 50 
+-n_cycles 10
+-ex1 
+-ex2 
+-docking:partners A_X
+-out:pdb_gz
