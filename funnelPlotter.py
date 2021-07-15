@@ -2,7 +2,9 @@ import sys
 import matplotlib as mlt
 import matplotlib.pyplot as plt
 '''
-This is a small program that inputs the score.sc (even the littel weird ones), name_of_the_image_file, and the limit_of_energy file via command line and plots the energy-rmsd.
+This is a small program that inputs the score.sc (even the littel weird ones), 
+name_of_the_image_file, and the limit_of_energy file via command line and plots 
+the energy-rmsd.
 '''
 
 if len(sys.argv) != 4: 
