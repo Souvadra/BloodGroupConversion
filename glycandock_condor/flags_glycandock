@@ -8,3 +8,5 @@
 -ex2 
 -docking:partners A_X
 -out:pdb_gz
+-lock_rings true 
+-auto_setup_metals true
