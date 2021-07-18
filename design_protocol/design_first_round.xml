@@ -1,0 +1,39 @@
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+		<ScoreFunction name="sfxn" weights="ref2015_cart.wts"/>
+	</SCOREFXNS>
+	<RESIDUE_SELECTORS> 
+		<Chain name="aa_res" chains="A"/>
+		<Not name="sugar_metal_res" chains="A"/>
+		<Neighborhood name="nbr_sel" selector="sugar_metal_res" distance=(8.0%float)/>
+		<And name="not_to_design" selectors="sugar_metal_res, nbr_sel" />
+		<Not name="only_to_design" selector="not_to_design" />
+	</RESIDUE_SELECTORS>
+    <MOVE_MAP_FACTORIES>
+        <MoveMapFactory name="mmf" bb=(&bool true) chi=(&bool true)>
+            <Backbone disable=(&bool true) selector="only_to_design"/>
+        </MoveMapFactory>
+    </MOVE_MAP_FACTORIES>	
+	<TASKOPERATIONS>
+		<InitializeFromCommandline name="initialize" />
+		<IncludeCurrent name="include_curr" />
+		<PreventRepackingRLT name="repack_nbr" selector="nbr_sel"/>
+		<RestrictToRepackingRLT name="nopack_sugar" selector="sugar_metal_res"/>
+	</TASKOPERATIONS>
+	<FILTERS>
+	</FILTERS>
+	<SIMPLE_METRICS>
+	</SIMPLE_METRICS>
+	<MOVERS>
+		<FastDesign name="fd" scorefxn="sfxn" 
+					task_operations="initialize, include_curr, repack_nbr, nopack_sugar"
+					repeats=(1 &integer), cst_file="/home/souvadra/myGitFolders/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst", cartesian=(&bool true)
+					movemap_factory="mmf" />
+	</MOVERS>
+	<APPLY_TO_POSE>
+	</APPLY_TO_POSE>
+	<PROTOCOLS>
+		<Add mover_name="fd" />
+	</PROTOCOLS>
+	<OUTPUT />
+</ROSETTASCRIPTS>

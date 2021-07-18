@@ -1,0 +1,12 @@
+-multiple_processes_writing_to_one_directory
+-nstruct 1
+-in:file:s /home/souvadra/myGitFolders/BloodGroupConversion/starting_structure/6N1B-A_antigen.pdb
+-include_sugars
+-lock_rings 
+-maintain_links 
+-auto_detect_glycan_connections 
+-alternate_3_letter_codes pdb_sugar 
+-auto_setup_metals 
+#-constraints:cst_fa_file starting_structure/6N1B_catalytic_and_specific.cst
+-parser:protocol design_first_round.xml
+-out:prefix round_one_output/
