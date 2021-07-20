@@ -1,0 +1,11 @@
+Universe = vanilla
+Executable = /home/shati/rosetta/Rosetta/main/source/bin/rosetta_scripts.default.linuxgccrelease
+Arguments = @flags_fast_design
+
+Log          = outerr/$(prefix).log_$(Process)
+Output       = outerr/$(prefix).out_$(Process)
+Error        = outerr/$(prefix).err_$(Process)
+
+prefix       = out
+
+Queue 1000
