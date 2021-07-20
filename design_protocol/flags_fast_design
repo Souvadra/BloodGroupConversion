@@ -7,6 +7,8 @@
 -auto_detect_glycan_connections 
 -alternate_3_letter_codes pdb_sugar 
 -auto_setup_metals 
+-ex1 
+-ex2
 #-constraints:cst_fa_file starting_structure/6N1B_catalytic_and_specific.cst
 -parser:protocol design_first_round.xml
 -out:prefix round_one_output/
