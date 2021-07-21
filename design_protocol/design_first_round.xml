@@ -11,7 +11,7 @@
         <Layer name="core" select_core="true" select_boundary="false" 
             select_surface="false" use_sidechain_neighbors="false" />
         <Not name="non_core" selector="core" />
-        <Or name="no_design" selectors="sugar_metal_res,nbr_sel,non_core,imp_res" />
+        <Or name="no_design_core" selectors="sugar_metal_res,nbr_sel,non_core,imp_res" />
         
         <Layer name="surface" select_core="false" select_boundary="false" 
             select_surface="true" use_sidechain_neighbors="false" />
