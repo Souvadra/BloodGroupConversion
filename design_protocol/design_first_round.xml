@@ -6,21 +6,22 @@
         <Chain name="aa_res" chains="A"/>
         <Not name="sugar_metal_res" selector="aa_res"/>
         <Neighborhood name="nbr_sel" selector="sugar_metal_res" distance="8.0"/>
+        <Index name="imp_res" resnums="58,246,94,91,55,115" />
 
         <Layer name="core" select_core="true" select_boundary="false" 
             select_surface="false" use_sidechain_neighbors="false" />
         <Not name="non_core" selector="core" />
-        <Or name="no_design_core" selectors="sugar_metal_res,nbr_sel,non_core" />
+        <Or name="no_design" selectors="sugar_metal_res,nbr_sel,non_core,imp_res" />
         
         <Layer name="surface" select_core="false" select_boundary="false" 
             select_surface="true" use_sidechain_neighbors="false" />
         <Not name="non_surface" selector="surface" />
-        <Or name="no_design_surface" selectors="sugar_metal_res,nbr_sel,non_surface" />
+        <Or name="no_design_surface" selectors="sugar_metal_res,nbr_sel,non_surface,imp_res" />
 
         <Layer name="boundary" select_core="false" select_boundary="true" 
             select_surface="false" use_sidechain_neighbors="false" />
         <Not name="non_boundary" selector="boundary" />
-        <Or name="no_design_boundary" selectors="sugar_metal_res,nbr_sel,non_boundary" />
+        <Or name="no_design_boundary" selectors="sugar_metal_res,nbr_sel,non_boundary,imp_res" />
     </RESIDUE_SELECTORS>
     <MOVE_MAP_FACTORIES>
         <MoveMapFactory name="mmf" bb="0" chi="1">

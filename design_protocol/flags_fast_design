@@ -1,6 +1,6 @@
 -multiple_processes_writing_to_one_directory
 -nstruct 1
--in:file:s /home/souvadra/myGitFolders/BloodGroupConversion/starting_structure/6N1B-A_antigen.pdb
+-in:file:s /home/shati/BloodGroupConversion/starting_structure/6N1B-A_antigen.pdb
 -include_sugars
 -lock_rings 
 -maintain_links 

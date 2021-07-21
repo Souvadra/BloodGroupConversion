@@ -1,3 +1,4 @@
+
 <ROSETTASCRIPTS>
     <SCOREFXNS>
         <ScoreFunction name="sfxn" weights="ref2015_cart.wts"/>
@@ -6,10 +7,11 @@
         <Chain name="aa_res" chains="A"/>
         <Not name="sugar_metal_res" selector="aa_res"/>
         <Neighborhood name="nbr_sel" selector="sugar_metal_res" distance="8.0"/>
-        <Layer name="core" select_core="true" select_boundary="false" 
-            select_surface="false" use_sidechain_neighbors="false" />
-        <Not name="non_core" selector="core" />
-        <Or name="no_design" selectors="sugar_metal_res,nbr_sel,non_core" />
+        <Layer name="surface" select_core="false" select_boundary="false" 
+            select_surface="true" use_sidechain_neighbors="false" />
+        <Not name="non_core" selector="surface" />
+        <Index name="imp_res" resnums="58,246,94,91,55,115" />
+        <Or name="no_design" selectors="sugar_metal_res,nbr_sel,non_core,imp_res" />
         <Not name="only_design" selector="no_design" />
     </RESIDUE_SELECTORS>
     <MOVE_MAP_FACTORIES>
