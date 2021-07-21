@@ -54,19 +54,19 @@
 
         <FastDesign name="fd_core" scorefxn="sfxn" 
         task_operations="init_cmd,inc_curr,repack_nbr_core,nopack_sugar" 
-        repeats="1" 
+        repeats="5" 
         cst_file="/home/souvadra/myGitFolders/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf" />
 
         <FastDesign name="fd_surface" scorefxn="sfxn" 
         task_operations="init_cmd,inc_curr,repack_nbr_surface,nopack_sugar" 
-        repeats="1" 
+        repeats="5" 
         cst_file="/home/souvadra/myGitFolders/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf" />
 
         <FastDesign name="fd_boundary" scorefxn="sfxn" 
         task_operations="init_cmd,inc_curr,repack_nbr_boundary,nopack_sugar" 
-        repeats="1" 
+        repeats="5" 
         cst_file="/home/souvadra/myGitFolders/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf" />
     </MOVERS>
