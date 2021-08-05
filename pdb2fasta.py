@@ -13,7 +13,7 @@ import os
 
 def usage():
     print("Pulls gasta file of a specific chain up to a specified output file")
-    print("python pdb2fasta.py <pdb> <chain> <output>")
+    print("python pdb2fasta.py <directory/of/pdb-s/> <chain> <output>")
 
 if (len(sys.argv) < 3):
    usage()
