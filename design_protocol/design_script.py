@@ -27,7 +27,7 @@ from pyrosetta.rosetta.core.scoring import *
 
 ## ***************************************************************
 from pyrosetta.rosetta.core.select.residue_selector import (
-    AndResidueSelector, 
+    OrResidueSelector, 
     NeighborhoodResidueSelector, 
     NotResidueSelector,
     ChainSelector
@@ -59,9 +59,10 @@ sfxn.show(pose)
 aa_res = ChainSelector("A")
 sugar_res = NotResidueSelector(ChainSelector("A"))
 
-nbr_selector = NeighborhoodResidueSelector(sugar_res, 8, True)
-not_to_design = AndResidueSelector(sugar_res, nbr_selector)
+nbr_selector = NeighborhoodResidueSelector(sugar_res, 12, True)
+not_to_design = OrResidueSelector(sugar_res, nbr_selector)
 only_to_design = NotResidueSelector(not_to_design)
+
 disable_packing = PreventRepackingRLT()
 repack_only = RestrictToRepackingRLT()
 
@@ -91,8 +92,8 @@ mmf.add_bb_action(
     only_to_design
 )
 mm = mmf.create_movemap_from_pose(pose)
-
 print(mm)
+
 
 fd = FastDesign()
 fd.set_scorefxn(sfxn)
@@ -105,4 +106,6 @@ fd.min_type("lbfgs_armijo_nonmonotone")
 fd.max_iter(1)
 
 fd.apply(pose)
+
+pose.dump_pdb("design_output.pdb")
 
