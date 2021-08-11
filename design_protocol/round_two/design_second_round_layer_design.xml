@@ -157,7 +157,7 @@
         </OperateOnResidueSubset>
 
         <OperateOnResidueSubset name="no_design_imp" selector="no_design" >
-            <RestrictToRepackingRLT>
+            <RestrictToRepackingRLT />
         </OperateOnResidueSubset>
     </TASKOPERATIONS>
     <FILTERS>
