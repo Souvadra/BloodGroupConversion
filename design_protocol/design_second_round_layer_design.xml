@@ -39,40 +39,49 @@
     </RESIDUE_SELECTORS>
     <MOVE_MAP_FACTORIES>
         <MoveMapFactory name="mmf1" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
             <Chi enable="false" residue_selector="sugar_metal_res" />
-            <Backbone enable="false" residue_selector="no_surface_helix"/>
+            Backbone enable="false" residue_selector="no_surface_helix"/>
         </MoveMapFactory>
         <MoveMapFactory name="mmf2" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
             <Chi enable="false" residue_selector="sugar_metal_res" />
-            <Backbone enable="false" residue_selector="no_surface_sheet"/>
+            Backbone enable="false" residue_selector="no_surface_sheet"/>
         </MoveMapFactory>
         <MoveMapFactory name="mmf3" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
             <Chi enable="false" residue_selector="sugar_metal_res" />
-            <Backbone enable="false" residue_selector="no_surface_loop"/>
+            Backbone enable="false" residue_selector="no_surface_loop"/>
         </MoveMapFactory>
         <MoveMapFactory name="mmf4" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
             <Chi enable="false" residue_selector="sugar_metal_res" />
-            <Backbone enable="false" residue_selector="no_boundary_helix"/>
+            Backbone enable="false" residue_selector="no_boundary_helix"/>
         </MoveMapFactory>
         <MoveMapFactory name="mmf5" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
             <Chi enable="false" residue_selector="sugar_metal_res" />
-            <Backbone enable="false" residue_selector="no_boundary_sheet"/>
+            Backbone enable="false" residue_selector="no_boundary_sheet"/>
         </MoveMapFactory>
         <MoveMapFactory name="mmf6" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
             <Chi enable="false" residue_selector="sugar_metal_res" />
-            <Backbone enable="false" residue_selector="no_boundary_loop"/>
+            Backbone enable="false" residue_selector="no_boundary_loop"/>
         </MoveMapFactory>
         <MoveMapFactory name="mmf7" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
             <Chi enable="false" residue_selector="sugar_metal_res" />
-            <Backbone enable="false" residue_selector="no_core_helix"/>
+            Backbone enable="false" residue_selector="no_core_helix"/>
         </MoveMapFactory>
         <MoveMapFactory name="mmf8" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
             <Chi enable="false" residue_selector="sugar_metal_res" />
-            <Backbone enable="false" residue_selector="no_core_sheet"/>
+            Backbone enable="false" residue_selector="no_core_sheet"/>
         </MoveMapFactory>
         <MoveMapFactory name="mmf9" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
             <Chi enable="false" residue_selector="sugar_metal_res" />
-            <Backbone enable="false" residue_selector="no_core_loop"/>
+            Backbone enable="false" residue_selector="no_core_loop"/>
         </MoveMapFactory>
 
     </MOVE_MAP_FACTORIES>	
@@ -146,6 +155,10 @@
         <OperateOnResidueSubset name="nopack_sugar" selector="sugar_metal_res" >
             <PreventRepackingRLT />
         </OperateOnResidueSubset>
+
+        <OperateOnResidueSubset name="no_design_imp" selector="no_design" >
+            <RestrictToRepackingRLT>
+        </OperateOnResidueSubset>
     </TASKOPERATIONS>
     <FILTERS>
     </FILTERS>
@@ -153,56 +166,56 @@
     </SIMPLE_METRICS>
     <MOVERS>
         <FastDesign name="fd1" scorefxn="sfxn" 
-        task_operations="init_cmd,inc_curr,design_surface_helix,no_design_surface_helix,nopack_sugar" 
-        repeats="5" 
+        task_operations="init_cmd,inc_curr,design_surface_helix,no_design_surface_helix,nopack_sugar,no_design_imp" 
+        repeats="1" 
         cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf1" />
 
         <FastDesign name="fd2" scorefxn="sfxn" 
-        task_operations="init_cmd,inc_curr,design_surface_sheet,no_design_surface_sheet,nopack_sugar" 
-        repeats="5" 
+        task_operations="init_cmd,inc_curr,design_surface_sheet,no_design_surface_sheet,nopack_sugar,no_design_imp" 
+        repeats="1" 
         cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf2" />
 
         <FastDesign name="fd3" scorefxn="sfxn" 
-        task_operations="init_cmd,inc_curr,design_surface_loop,no_design_surface_loop,nopack_sugar" 
-        repeats="5" 
+        task_operations="init_cmd,inc_curr,design_surface_loop,no_design_surface_loop,nopack_sugar,no_design_imp" 
+        repeats="1" 
         cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf3" />
 
         <FastDesign name="fd4" scorefxn="sfxn" 
-        task_operations="init_cmd,inc_curr,design_boundary_helix,no_design_boundary_helix,nopack_sugar" 
-        repeats="5" 
+        task_operations="init_cmd,inc_curr,design_boundary_helix,no_design_boundary_helix,nopack_sugar,no_design_imp" 
+        repeats="1" 
         cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf4" />
 
         <FastDesign name="fd5" scorefxn="sfxn" 
-        task_operations="init_cmd,inc_curr,design_boundary_sheet,no_design_boundary_sheet,nopack_sugar" 
-        repeats="5" 
+        task_operations="init_cmd,inc_curr,design_boundary_sheet,no_design_boundary_sheet,nopack_sugar,no_design_imp" 
+        repeats="1" 
         cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf5" />
 
         <FastDesign name="fd6" scorefxn="sfxn" 
-        task_operations="init_cmd,inc_curr,design_boundary_loop,no_design_boundary_loop,nopack_sugar" 
-        repeats="5" 
+        task_operations="init_cmd,inc_curr,design_boundary_loop,no_design_boundary_loop,nopack_sugar,no_design_imp" 
+        repeats="1" 
         cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf6" />
 
         <FastDesign name="fd7" scorefxn="sfxn" 
-        task_operations="init_cmd,inc_curr,design_core_helix,no_design_core_helix,nopack_sugar" 
-        repeats="5" 
+        task_operations="init_cmd,inc_curr,design_core_helix,no_design_core_helix,nopack_sugar,no_design_imp" 
+        repeats="1" 
         cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf7" />
 
         <FastDesign name="fd8" scorefxn="sfxn" 
-        task_operations="init_cmd,inc_curr,design_core_sheet,no_design_core_sheet,nopack_sugar" 
-        repeats="5" 
+        task_operations="init_cmd,inc_curr,design_core_sheet,no_design_core_sheet,nopack_sugar,no_design_imp" 
+        repeats="1" 
         cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf8" />
 
         <FastDesign name="fd9" scorefxn="sfxn" 
-        task_operations="init_cmd,inc_curr,design_core_loop,no_design_core_loop,nopack_sugar" 
-        repeats="5" 
+        task_operations="init_cmd,inc_curr,design_core_loop,no_design_core_loop,nopack_sugar,no_design_imp" 
+        repeats="1" 
         cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
         cartesian="true" movemap_factory="mmf9" />
     </MOVERS>
