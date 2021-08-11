@@ -1,0 +1,237 @@
+
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+        <ScoreFunction name="sfxn" weights="ref2015_cart.wts"/>
+    </SCOREFXNS>
+    <RESIDUE_SELECTORS> 
+        <Chain name="aa_res" chains="A"/>
+        <Not name="sugar_metal_res" selector="aa_res"/>
+        <Neighborhood name="nbr_sel" selector="sugar_metal_res" distance="8.0"/>
+        <Index name="imp_res" resnums="58,246,94,91,55,115" />
+
+        <Layer name="surface" select_core="false" select_boundary="false" select_surface="true" use_sidechain_neighbors="true"/>
+        <Layer name="boundary" select_core="false" select_boundary="true" select_surface="false" use_sidechain_neighbors="true"/>
+        <Layer name="core" select_core="true" select_boundary="false" select_surface="false" use_sidechain_neighbors="true"/>
+        <SecondaryStructure name="helix" overlap="0" minH="3" include_terminal_loops="false" use_dssp="true" ss="H" />
+        <SecondaryStructure name="sheet" overlap="0" minE="3" include_terminal_loops="false" use_dssp="true" ss="E" />
+        <SecondaryStructure name="loop" overlap="0" minH="3" minE="3"  include_terminal_loops="true" use_dssp="true" ss="L" />
+        
+        <And name="surface_helix" selectors="surface,helix"/>
+        <And name="surface_sheet" selectors="surface,sheet"/>
+        <And name="surface_loop" selectors="surface,loop"/>
+        <And name="boundary_helix" selectors="boundary,helix"/>
+        <And name="boundary_sheet" selectors="boundary,sheet"/>
+        <And name="boundary_loop" selectors="boundary,loop"/>
+        <And name="core_helix" selectors="core,helix"/>
+        <And name="core_sheet" selectors="core,sheet"/>
+        <And name="core_loop" selectors="core,loop"/>
+
+        <Not name="no_surface_helix" selector="surface_helix"/>
+        <Not name="no_surface_sheet" selector="surface_sheet"/>
+        <Not name="no_surface_loop" selector="surface_loop"/>
+        <Not name="no_boundary_helix" selector="boundary_helix"/>
+        <Not name="no_boundary_sheet" selector="boundary_sheet" />
+        <Not name="no_boundary_loop" selector="boundary_loop"/>
+        <Not name="no_core_helix" selector="core_helix"/>
+        <Not name="no_core_sheet" selector="core_sheet"/>
+        <Not name="no_core_loop" selector="core_loop"/>
+
+        <Or name="no_design" selectors="sugar_metal_res,nbr_sel,imp_res" />
+    </RESIDUE_SELECTORS>
+    <MOVE_MAP_FACTORIES>
+        <MoveMapFactory name="mmf1" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
+            <Chi enable="false" residue_selector="sugar_metal_res" />
+            Backbone enable="false" residue_selector="no_surface_helix"/>
+        </MoveMapFactory>
+        <MoveMapFactory name="mmf2" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
+            <Chi enable="false" residue_selector="sugar_metal_res" />
+            Backbone enable="false" residue_selector="no_surface_sheet"/>
+        </MoveMapFactory>
+        <MoveMapFactory name="mmf3" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
+            <Chi enable="false" residue_selector="sugar_metal_res" />
+            Backbone enable="false" residue_selector="no_surface_loop"/>
+        </MoveMapFactory>
+        <MoveMapFactory name="mmf4" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
+            <Chi enable="false" residue_selector="sugar_metal_res" />
+            Backbone enable="false" residue_selector="no_boundary_helix"/>
+        </MoveMapFactory>
+        <MoveMapFactory name="mmf5" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
+            <Chi enable="false" residue_selector="sugar_metal_res" />
+            Backbone enable="false" residue_selector="no_boundary_sheet"/>
+        </MoveMapFactory>
+        <MoveMapFactory name="mmf6" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
+            <Chi enable="false" residue_selector="sugar_metal_res" />
+            Backbone enable="false" residue_selector="no_boundary_loop"/>
+        </MoveMapFactory>
+        <MoveMapFactory name="mmf7" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
+            <Chi enable="false" residue_selector="sugar_metal_res" />
+            Backbone enable="false" residue_selector="no_core_helix"/>
+        </MoveMapFactory>
+        <MoveMapFactory name="mmf8" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
+            <Chi enable="false" residue_selector="sugar_metal_res" />
+            Backbone enable="false" residue_selector="no_core_sheet"/>
+        </MoveMapFactory>
+        <MoveMapFactory name="mmf9" bb="1" chi="1">
+            <Backbone enable="false" residue_selector="no_design" />
+            <Chi enable="false" residue_selector="sugar_metal_res" />
+            Backbone enable="false" residue_selector="no_core_loop"/>
+        </MoveMapFactory>
+
+    </MOVE_MAP_FACTORIES>	
+    <TASKOPERATIONS>
+        <IncludeCurrent name="inc_curr" />
+        <InitializeFromCommandline name="init_cmd" />
+        --------------------------------------------------------------------------------
+        <OperateOnResidueSubset name="design_surface_helix" selector="surface_helix" >
+            <RestrictAbsentCanonicalAASRLT aas="DEHKNQRST"/>
+        </OperateOnResidueSubset>
+        <OperateOnResidueSubset name="no_design_surface_helix" selector="no_surface_helix" >
+            <RestrictToRepackingRLT />
+        </OperateOnResidueSubset>
+
+        <OperateOnResidueSubset name="design_surface_sheet" selector="surface_sheet" >
+            <RestrictAbsentCanonicalAASRLT aas="DEHKNQRST"/>
+        </OperateOnResidueSubset>
+        <OperateOnResidueSubset name="no_design_surface_sheet" selector="no_surface_sheet" >
+            <RestrictToRepackingRLT />
+        </OperateOnResidueSubset>
+
+        <OperateOnResidueSubset name="design_surface_loop" selector="surface_loop" >
+            <RestrictAbsentCanonicalAASRLT aas="DEGHKNPQRST"/>
+        </OperateOnResidueSubset>
+        <OperateOnResidueSubset name="no_design_surface_loop" selector="no_surface_loop" >
+            <RestrictToRepackingRLT />
+        </OperateOnResidueSubset>
+        ----------------------------------------------------------------------------------
+        <OperateOnResidueSubset name="design_boundary_helix" selector="boundary_helix" >
+            <RestrictAbsentCanonicalAASRLT aas="ADEIKLMNQRSTVWY"/>
+        </OperateOnResidueSubset>
+        <OperateOnResidueSubset name="no_design_boundary_helix" selector="no_boundary_helix" >
+            <RestrictToRepackingRLT />
+        </OperateOnResidueSubset>
+
+        <OperateOnResidueSubset name="design_boundary_sheet" selector="boundary_sheet" >
+            <RestrictAbsentCanonicalAASRLT aas="DEFIKLNQRSTVWY"/>
+        </OperateOnResidueSubset>
+        <OperateOnResidueSubset name="no_design_boundary_sheet" selector="no_boundary_sheet" >
+            <RestrictToRepackingRLT />
+        </OperateOnResidueSubset>
+
+        <OperateOnResidueSubset name="design_boundary_loop" selector="boundary_loop" >
+            <RestrictAbsentCanonicalAASRLT aas="ADEFGIKLMNPQRSTVWY"/>
+        </OperateOnResidueSubset>
+        <OperateOnResidueSubset name="no_design_boundary_loop" selector="no_boundary_loop" >
+            <RestrictToRepackingRLT />
+        </OperateOnResidueSubset>
+        ----------------------------------------------------------------------------------
+        <OperateOnResidueSubset name="design_core_helix" selector="core_helix" >
+            <RestrictAbsentCanonicalAASRLT aas="AFILMVWY"/>
+        </OperateOnResidueSubset>
+        <OperateOnResidueSubset name="no_design_core_helix" selector="no_core_helix" >
+            <RestrictToRepackingRLT />
+        </OperateOnResidueSubset>
+
+        <OperateOnResidueSubset name="design_core_sheet" selector="core_sheet" >
+            <RestrictAbsentCanonicalAASRLT aas="FILVWY"/>
+        </OperateOnResidueSubset>
+        <OperateOnResidueSubset name="no_design_core_sheet" selector="no_core_sheet" >
+            <RestrictToRepackingRLT />
+        </OperateOnResidueSubset>
+
+        <OperateOnResidueSubset name="design_core_loop" selector="core_loop" >
+            <RestrictAbsentCanonicalAASRLT aas="AFILMPVWY"/>
+        </OperateOnResidueSubset>
+         <OperateOnResidueSubset name="no_design_core_loop" selector="no_core_loop" >
+            <RestrictToRepackingRLT />
+        </OperateOnResidueSubset>
+        -----------------------------------------------------------------------------------
+        <OperateOnResidueSubset name="nopack_sugar" selector="sugar_metal_res" >
+            <PreventRepackingRLT />
+        </OperateOnResidueSubset>
+
+        <OperateOnResidueSubset name="no_design_imp" selector="no_design" >
+            <RestrictToRepackingRLT>
+        </OperateOnResidueSubset>
+    </TASKOPERATIONS>
+    <FILTERS>
+    </FILTERS>
+    <SIMPLE_METRICS>
+    </SIMPLE_METRICS>
+    <MOVERS>
+        <FastDesign name="fd1" scorefxn="sfxn" 
+        task_operations="init_cmd,inc_curr,design_surface_helix,no_design_surface_helix,nopack_sugar,no_design_imp" 
+        repeats="1" 
+        cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
+        cartesian="true" movemap_factory="mmf1" />
+
+        <FastDesign name="fd2" scorefxn="sfxn" 
+        task_operations="init_cmd,inc_curr,design_surface_sheet,no_design_surface_sheet,nopack_sugar,no_design_imp" 
+        repeats="1" 
+        cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
+        cartesian="true" movemap_factory="mmf2" />
+
+        <FastDesign name="fd3" scorefxn="sfxn" 
+        task_operations="init_cmd,inc_curr,design_surface_loop,no_design_surface_loop,nopack_sugar,no_design_imp" 
+        repeats="1" 
+        cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
+        cartesian="true" movemap_factory="mmf3" />
+
+        <FastDesign name="fd4" scorefxn="sfxn" 
+        task_operations="init_cmd,inc_curr,design_boundary_helix,no_design_boundary_helix,nopack_sugar,no_design_imp" 
+        repeats="1" 
+        cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
+        cartesian="true" movemap_factory="mmf4" />
+
+        <FastDesign name="fd5" scorefxn="sfxn" 
+        task_operations="init_cmd,inc_curr,design_boundary_sheet,no_design_boundary_sheet,nopack_sugar,no_design_imp" 
+        repeats="1" 
+        cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
+        cartesian="true" movemap_factory="mmf5" />
+
+        <FastDesign name="fd6" scorefxn="sfxn" 
+        task_operations="init_cmd,inc_curr,design_boundary_loop,no_design_boundary_loop,nopack_sugar,no_design_imp" 
+        repeats="1" 
+        cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
+        cartesian="true" movemap_factory="mmf6" />
+
+        <FastDesign name="fd7" scorefxn="sfxn" 
+        task_operations="init_cmd,inc_curr,design_core_helix,no_design_core_helix,nopack_sugar,no_design_imp" 
+        repeats="1" 
+        cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
+        cartesian="true" movemap_factory="mmf7" />
+
+        <FastDesign name="fd8" scorefxn="sfxn" 
+        task_operations="init_cmd,inc_curr,design_core_sheet,no_design_core_sheet,nopack_sugar,no_design_imp" 
+        repeats="1" 
+        cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
+        cartesian="true" movemap_factory="mmf8" />
+
+        <FastDesign name="fd9" scorefxn="sfxn" 
+        task_operations="init_cmd,inc_curr,design_core_loop,no_design_core_loop,nopack_sugar,no_design_imp" 
+        repeats="1" 
+        cst_file="/home/shati/BloodGroupConversion/starting_structure/6N1B_catalytic_and_specific.cst" 
+        cartesian="true" movemap_factory="mmf9" />
+    </MOVERS>
+    <APPLY_TO_POSE>
+    </APPLY_TO_POSE>
+    <PROTOCOLS>
+        <Add mover_name="fd1" />
+        Add mover_name="fd2" />
+        Add mover_name="fd3" />
+        Add mover_name="fd4" />
+        Add mover_name="fd5" />
+        Add mover_name="fd6" />
+        Add mover_name="fd7" />
+        Add mover_name="fd8" />
+        Add mover_name="fd9" />
+    </PROTOCOLS>
+    <OUTPUT />
+</ROSETTASCRIPTS>
