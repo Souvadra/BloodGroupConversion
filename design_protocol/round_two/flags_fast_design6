@@ -1,0 +1,14 @@
+-multiple_processes_writing_to_one_directory
+-nstruct 10
+-in:file:s /home/shati/BloodGroupConversion/starting_structure/6N1B-A_antigen.pdb
+-include_sugars
+-lock_rings 
+-maintain_links 
+-auto_detect_glycan_connections 
+-alternate_3_letter_codes pdb_sugar 
+-auto_setup_metals 
+-ex1 
+-ex2
+#-constraints:cst_fa_file starting_structure/6N1B_catalytic_and_specific.cst
+-parser:protocol design6.xml
+-out:prefix round_two_output_design6/
