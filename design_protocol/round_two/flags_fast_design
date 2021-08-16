@@ -1,5 +1,5 @@
 -multiple_processes_writing_to_one_directory
--nstruct 1000
+-nstruct 10
 -in:file:s /home/shati/BloodGroupConversion/starting_structure/6N1B-A_antigen.pdb
 -include_sugars
 -lock_rings 
@@ -10,5 +10,5 @@
 -ex1 
 -ex2
 #-constraints:cst_fa_file starting_structure/6N1B_catalytic_and_specific.cst
--parser:protocol design_second_round_layer_design.xml
--out:prefix round_two_output/
+-parser:protocol design2.xml
+-out:prefix round_two_output_design2/

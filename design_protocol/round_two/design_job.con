@@ -8,4 +8,4 @@ Error        = outerr/$(prefix).err_$(Process)
 
 prefix       = out
 
-Queue 500
+Queue 10
