@@ -1,0 +1,11 @@
+Universe = vanilla
+Executable = /home/shati/rosetta/Rosetta/main/source/bin/relax.linuxgccrelease
+Arguments = @flags_relax_round2_design
+
+Log          = outerr/$(prefix).log_$(Process)
+Output       = outerr/$(prefix).out_$(Process)
+Error        = outerr/$(prefix).err_$(Process)
+
+prefix       = relaxed
+
+Queue 50

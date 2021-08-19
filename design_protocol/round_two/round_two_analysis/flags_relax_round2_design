@@ -1,0 +1,13 @@
+-multiple_processes_writing_to_one_directory
+-nstruct 100
+-use_input_sc
+-include_sugars
+-lock_rings 
+-maintain_links 
+-auto_detect_glycan_connections 
+-alternate_3_letter_codes pdb_sugar 
+-auto_setup_metals 
+-ex1 
+-ex2
+-in:file:s  6N1B-A_antigen-all-round2-designs.pdb
+-out:prefix design_round2_combined_relaxed/
